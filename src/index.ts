@@ -8,7 +8,7 @@ function add(a: number, b: number): number {
 
 console.log(`2 + 3 = ${add(2, 9)}`);
 
-console.log(a)
+console.log("ok all is will")
 
 function greet(name?: string): void {
     if (name) {
