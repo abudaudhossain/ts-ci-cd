@@ -54,7 +54,7 @@ jobs:
             #   run: sleep 30
 
             - name: Download build artifact
-              uses: actions/download@v4
+              uses: actions/download-artifact@v4
               with: 
                 name: app-build
                 path: dist/
