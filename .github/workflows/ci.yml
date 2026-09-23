@@ -62,5 +62,8 @@ jobs:
             - name: Show build files
               run: ls -la dist/
 
+            - name: Show all files
+              run: ls -la ./
+
             - name: Deploy
               run: npm run start
