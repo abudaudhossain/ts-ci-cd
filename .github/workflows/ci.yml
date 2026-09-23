@@ -43,8 +43,8 @@ jobs:
             - name: Build application
               run: npm run build
 
-            - name: Wait 30 seconds
-              run: sleep 30
+            # - name: Wait 30 seconds
+            #   run: sleep 30
 
             - name: Deploy
               run: npm run start
